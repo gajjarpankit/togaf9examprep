@@ -1,0 +1,745 @@
+*****************************
+
+https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html
+
+*****************************
+
+Part III - Guidelines and Techniques
+
+CH 18-28 Notes
+
+-----------------------------
+
+
+Ch 18 Guidelines and Techniques:
+
+The guidelines document how to adapt the ADM process, whereas thetechniques are used when applying the ADM process
+
+Iteration
+
+Guidelines for adapting the ADM process include:Ways to apply iteration to the ADM
+Sequential
+phase wise
+
+The ADM supports a number of concepts that are characterized as iteration. 
+First, iteration describes the process of both describing a comprehensive Architecture Landscape through multiple ADM cycles based upon individual initiatives bound to the scope of the Request for Architecture Work. 
+
+Second, iteration describes the integrated process of developing an architecture where the activities described in different ADM phases interact to produce an integrated architecture. In order to concisely describe the activity and outputs, this latter iteration is described in sequential terms. 
+
+Third, iteration describes the process of managing change to the organization's Architecture Capability.
+
+
+18.2 Iteration Cycles 4 types
+	Architecture Capability iterations support the creation and evolution of the required Architecture Capability
+		This includes the initial mobilization of the architecture activity for a given purpose or architecture engagement type by establishing or adjusting 		the architecture approach, principles, scope, vision, and governance.
+   
+	Architecture Development iterations allow the creation of architecture content by cycling through, or integrating, Business, Information Systems, and 		Technology Architecture phases
+		These iterations ensure that the architecture is considered as a whole. In this type of iteration stakeholder reviews are typically broader. As the 		iterations converge on a target, extensions into the Opportunities & Solutions and Migration Planning phases ensure that the architecture's 		implementability is considered as the architecture is finalized.
+   
+	Transition Planning iterations support the creation of formal change roadmaps for a defined architecture
+    
+	Architecture Governance iterations support governance of change activity progressing towards a defined Target Architecture
+
+
+18.3 Classes of Architecture Engagement
+
+An architecture function or services may be called upon to assist an enterprise in a number of different contexts,
+
+Typically, there are three areas of engagement for architects:
+
+    Identification of Required Change: outside the context of any change initiative, architecture can be used as a technique to provide visibility of the 		IT capability in order to support strategic decision-making and alignment of execution
+
+    Definition of Change: where a need to change has been identified, architecture can be used as a technique to define the nature and extent of change in 		a structured fashion
+    Within largescale change initiatives, architectures can be developed to provide detailed Architecture Definition for change initiatives that are 			unounded or bounded by the scope of a program or portfolio.
+
+    Implementation of Change: architecture at all levels of the enterprise can be used as a technique to provide design governance to change initiatives 		by providing big-picture visibility, supplying structural constraints, and defining criteria on which to evaluate technical decisions
+		In order to ensure that the objectives and value of the defined architecture are appropriately realized, it is necessary for continuing Architecture 		Governance of the implementation process to support design review, architecture refinement, and issue escalation.
+
+
+18.4 Approaches to Architecture Development
+
+Two approaches can be adopted within the ADM for the development of architectures:
+
+    Baseline First: in this style, an assessment of the baseline landscape is used to identify problem areas and improvement opportunities
+
+    This process is most suitable when the baseline is complex, not clearly understood, or agreed upon. This approach is common where organizational units have had a high degree of autonomy.
+
+
+    Target First: in this style, the target solution is elaborated in detail and then mapped back to the baseline, in order to identify change activity
+
+    This process is suitable when a target state is agreed at a high level and where the enterprise wishes to effectively transition to the target model.
+
+Typically, if the baseline is broadly understood a higher value will be obtained focusing on the target first then baseline to the extent necessary to identify changes.
+
+
+Applying the ADM at different levels of the enterprise
+
+19.2 Architecture Landscape
+
+Levels provide a framework for dividing the Architecture Landscape into three levels of granularity:
+
+    Strategic Architecture provides an organizing framework for operational and change activity and allows for direction setting at an executive level.
+    Segment Architecture provides an organizing framework for operational and change activity and allows for direction setting and the development of effective architecture roadmaps at a program or portfolio level.
+    Capability Architecture provides an organizing framework for change activity and the development of effective architecture roadmaps realizing capability increments.
+
+
+19.3 Organizing the Architecture Landscape to Understand the State of the Enterprise
+
+The following characteristics are typically used to organize the Architecture Landscape:
+
+   Breadth: the breadth (subject matter) area is generally the primary organizing characteristic for describing an Architecture Landscape
+    Architectures are functionally decomposed into a hierarchy of specific subject areas or segments.
+
+   Depth: with broader subject areas, less detail is needed to ensure that the architecture has a manageable size and complexity
+    More specific subject matter areas will generally permit (and require) more detailed architectures.
+
+   Time: for a specific breadth and depth an enterprise can create a Baseline Architecture and a set of Target Architectures that stretch into the future
+		Broader and less detailed architectures will generally be valid for longer periods of time and can provide a vision for the enterprise that 		stretches further into the future.
+    
+	Recency: finally, each architecture view will progress through a development cycle where it increases in accuracy until finally approved
+    After approval, an architecture will begin to decrease in accuracy if not actively maintained. In some cases recency may be used as an organizing 		factor for historic architectures.
+
+		Using the criteria above, architectures can be grouped into Strategic, Segment, and Capability Architecture levels, as described in Figure 19-1 .
+
+
+19.4 Developing Architectures at Different Levels
+
+A number of techniques can be employed to use the ADM as a process that supports such hierarchies of architectures. Essentially there are two strategies that can be applied:
+    1) Architectures at different levels can be developed through iterations within a single cycle of the ADM process
+    2) Architectures at different levels can be developed through a hierarchy of ADM processes, executed concurrently
+
+
+
+How to use the TOGAF framework with different architectural styles
+
+
+20.1 Introduction
+Principles are general rules and guidelines, that inform and support 
+the way in which an organization achieves its mission.
+
+Depending on the organization, principles may be established within different domains and at different levels. Two key domains inform the development and utilization of architecture:
+
+1    Enterprise Principles provide a basis for decision-making throughout an enterprise, and inform how the organization sets about fulfilling its mission
+
+    Such principles helps in harmonizing decision-making across an organization. In particular, they are a key element in a successful Architecture Governance strategy (see 44. Architecture Governance).
+
+    Within the broad domain of enterprise principles, it is common to have subsidiary principles within a business or organizational unit. Examples include IT, HR, domestic operations, or overseas operations. These subsidiary principles provide a basis for decision-making within the subsidiary domain and will inform architecture development within the domain. Care must be taken to ensure that the principles used to inform architecture development align to the organizational context of the Architecture Capability.
+
+2    Architecture Principles are a set of principles that relate to architecture work
+
+    Architecture Principles govern the architecture process, affecting the development, maintenance, and use of the Enterprise Architecture.
+
+It is common to have sets of principles form a hierarchy so Architecture Principles will be informed and constrained by enterprise principles.
+
+Architecture Principles may restate other enterprise guidance in terms and form that effectively guide architecture development.
+
+
+
+20.2 Characteristics of Architecture Principles
+
+Architecture Principles define the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Each Architecture Principle should be clearly related back to the business objectives and key architecture drivers.
+
+
+20.3 Components of Architecture Principles
+
+Name
+	Should both represent the essence of the rule as well as be easy to remember. Specific technology platforms should not be mentioned in the name or statement of a principle. Avoid ambiguous words in the Name and in the Statement such as: "support", "open", "consider", and for lack of good measure the word "avoid", itself, be careful with "manage(ment)", and look for unnecessary adjectives and adverbs (fluff).
+
+Statement
+	Should succinctly and unambiguously communicate the fundamental rule. For the most part, the principles statements for managing information are similar from one organization to the next. It is vital that the principles statement is unambiguous.
+
+Rationale
+	Should highlight the business benefits of adhering to the principle, using business terminology. Point to the similarity of information and technology principles to the principles governing business operations. Also describe the relationship to other principles, and the intentions regarding a balanced interpretation. Describe situations where one principle would be given precedence or carry more weight than another for making a decision.
+
+Implications
+	Should highlight the requirements, both for the business and IT, for carrying out the principle - in terms of resources, costs, and activities/tasks. It will often be apparent that current systems, standards, or practices would be incongruent with the principle upon adoption. The impact to the business and consequences of adopting a principle should be clearly stated. The reader should readily discern the answer to: "How does this affect me?". It is important not to oversimplify, trivialize, or judge the merit of the impact. Some of the implications will be identified as potential impacts only, and may be speculative rather than fully analyzed.
+
+
+20.4 Developing Architecture Principles
+
+Architecture Principles are typically developed by the Enterprise Architects, in conjunction with the key stakeholders, and are approved by the Architecture Board.
+
+Architecture Principles will be informed by principles at the enterprise level, if they exist.
+
+Architecture Principles must be clearly traceable and clearly articulated to guide decision-making. They are chosen so as to ensure alignment of the architecture and implementation of the Target Architecture with business strategies and visions.
+
+Specifically, the development of Architecture Principles is typically influenced by the following:
+
+    Enterprise mission and plans: the mission, plans, and organizational infrastructure of the enterprise
+    Enterprise strategic initiatives: the characteristics of the enterprise - its strengths, weaknesses, opportunities, and threats - and its current enterprise-wide initiatives (such as process improvement and quality management)
+    External constraints: market factors (time-to-market imperatives, customer expectations, etc.); existing and potential legislation
+    Current systems and technology: the set of information resources deployed within the enterprise, including systems documentation, equipment inventories, network configuration diagrams, policies, and procedures
+    Emerging industry trends: predictions about economic, political, technical, and market factors that influence the enterprise environment
+
+
+20.4.1 Qualities of Principles
+
+Merely having a written statement that is called a principle does not mean that the principle is good, even if everyone agrees with it.
+
+There are five criteria that distinguish a good set of principles:
+
+Understandable: the underlying tenets can be quickly grasped and understood by individuals throughout the organization
+   The intention of the principle is clear and unambiguous, so that violations, whether intentional or not, are minimized.
+
+Robust: enable good quality decisions about architectures and plans to be made, and enforceable policies and standards to be created
+   Each principle should be sufficiently definitive and precise to support consistent decision-making in complex, potentially controversial situations.
+
+Complete: every potentially important principle governing the management of information and technology for the organization is defined - the 	principles cover every situation perceived
+    
+Consistent: strict adherence to one principle may require a loose interpretation of another principle
+   The set of principles must be expressed in a way that allows a balance of interpretations. Principles should not be contradictory to the point where 	adhering to one principle would violate the spirit of another. Every word in a principle statement should be carefully chosen to allow consistent yet 	flexible interpretation.
+
+Stable: principles should be enduring, yet able to accommodate changes 
+	An amendment process should be established for adding, removing, or altering principles after they are ratified initially.
+
+ A poor set of principles will quickly become disused, and the resultant architectures, policies, and standards will appear arbitrary or self-serving, and thus lack credibility. Essentially, principles drive behavior.
+
+
+20.5 Applying Architecture Principles
+
+Architecture Principles are used to capture the fundamental truths about how the enterprise will use and deploy IT resources and assets. The principles are used in a number of different ways:
+
+    To provide a framework within which the enterprise can start to make conscious decisions about Enterprise Architecture and projects that implement the target Enterprise Architecture
+
+    As a guide to establishing relevant evaluation criteria, thus exerting strong influence on the selection of products, solutions, or solution architectures in the later stages of managing compliance to the Enterprise Architecture
+
+    As drivers for defining the functional requirements of the architecture
+
+    As an input to assessing both existing implementations and the strategic portfolio, for compliance with the defined architectures; these assessments will provide valuable insights into the transition activities needed to implement an architecture, in support of business goals and priorities
+
+    The Rationale statements within an Architecture Principle highlight the business value of implementations consistent with the principle and provide guidance for difficult decisions with conflicting drivers or objectives
+
+    The Implications statements within an Architecture Principle provide an outline of the key tasks, resources, and potential costs to the enterprise of following the principle; they also provide valuable inputs to future transition initiative and planning activities
+
+    Support the Architecture Governance activities in terms of:
+        Providing a "back-stop" for the standard Architecture Compliance assessments where some interpretation is allowed or required
+        Supporting the decision to initiate a dispensation request where the implications of a particular architecture amendment cannot be resolved within 				local operating procedure
+
+
+Principles will sometimes compete and some of them priorizied. violations of principles generally cause operational problems and inhibit the ability of the organization to fulfil its mission.
+
+
+20.6 Example Set of Architecture Principles
+
+20.6.1 Business Principles
+20.6.2 Data Principles
+20.6.3 Application Principles
+20.6.4 Technology Principles
+
+
+
+21. Stakeholder Management
+21.1 Introduction
+
+It is essential in any initiative to identify the individuals and groups within the organization who will contribute to the development of the architecture, identify those that will gain and those that will lose from its introduction, and then develop a strategy for dealing with them.
+
+The benefits of successful stakeholder management are that:
+
+    The most powerful stakeholders can be identified early and their input can then be used to shape the architecture; this ensures their support and 		improves the quality of the models produced
+    Support from the more powerful stakeholders will help the engagement win more resources, thus making the architecture engagement more likely to 		succeed
+    By communicating with stakeholders early and frequently, the architecture team can ensure that they fully understand the architecture process, and the 		benefits of Enterprise Architecture; this means they can support the architecture team more actively when necessary
+    The architecture team can more effectively anticipate likely reactions to the architecture models and reports, and can build into the plan the actions 		that will be needed to capitalize on positive reaction while avoiding or addressing any negative reactions
+    The architecture team can identify conflicting or competing objectives among stakeholders early and develop a strategy to resolve the issues arising 		from them
+
+21.2 Approach to Stakeholder Management
+
+Stakeholder analysis should be used during Phase A (Architecture Vision) to identify the key players in the engagement, and also be updated throughout each phase; different stakeholders may be uncovered as the engagement progresses through into Opportunities & Solutions, Migration Planning, and Architecture Change Management.
+
+Complex architectures are extremely hard to manage, not only in terms of the architecture development process itself, but also in terms of obtaining agreement from the large numbers of stakeholders touched by it.
+
+For example, just as a building architect will create wiring diagrams, floor plans, and elevations to describe different facets of a building to its different stakeholders (electricians, owners, planning officials), so an Enterprise Architect must create different architecture views of the Business, Information Systems, and Technology Architecture for the stakeholders who have concerns related to these aspects.
+
+The TOGAF standard specifically identifies this issue throughout the ADM through the following concepts (see 31.1 Basic Concepts):
+
+    Architecture View
+    Architecture Viewpoint
+    Concern
+    Stakeholder
+
+
+21.3 Steps in the Stakeholder Management Process
+Refer web page
+
+
+21.4 Ignore 
+
+
+
+22 Architecture Patterns
+
+22.1.1 Background
+
+A "pattern" has been defined as: "an idea that has been useful in one practical context and will probably be useful in others" (Source: Analysis Patterns - Re-usable Object Models, by M. Fowler).
+
+In the TOGAF standard, patterns are considered to be a way of putting building blocks into context; for example, to describe a re-usable solution to a problem. Building blocks are what you use: patterns can tell you how you use them, when, why, and what trade-offs you have to make in doing so.
+
+Patterns offer the promise of helping the architect to identify combinations of Architecture and/or Solution Building Blocks (ABBs/SBBs) that have been proven to deliver effective solutions in the past, and may provide the basis for effective solutions in the future.
+
+
+22.1.2 Content of a Pattern
+
+
+Name
+    A meaningful and memorable way to refer to the pattern, typically a single word or short phrase.
+
+Problem
+    A description of the problem indicating the intent in applying the pattern - the intended goals and objectives to be reached within the context and 	forces described below (perhaps with some indication of their priorities).
+
+Context
+    The preconditions under which the pattern is applicable - a description of the initial state before the pattern is applied.
+
+Forces
+    A description of the relevant forces and constraints, and how they interact/conflict with each other and with the intended goals and objectives. The 	description should clarify the intricacies of the problem and make explicit the kinds of trade-offs that must be considered. (The need for such trade-	offs is typically what makes the problem difficult, and generates the need for the pattern in the first place.) The notion of "forces" equates in many 	ways to the "qualities" that architects seek to optimize, and the concerns they seek to address, in designing architectures. For example:
+
+        Security, robustness, reliability, fault-tolerance
+        Manageability
+        Efficiency, performance, throughput, bandwidth requirements, space utilization
+        Scalability (incremental growth on-demand)
+        Extensibility, evolvability, maintainability
+        Modularity, independence, re-usability, openness, composability (plug-and-play), portability
+        Completeness and correctness
+        Ease-of-construction
+        Ease-of-use
+        etc., ...
+
+Solution
+    A description, using text and/or graphics, of how to achieve the intended goals and objectives. The description should identify both the solution's static structure and its dynamic behavior - the people and computing actors, and their collaborations. The description may include guidelines for implementing the solution. Variants or specializations of the solution may also be described.
+
+Resulting Context
+    The post-conditions after the pattern has been applied. Implementing the solution normally requires trade-offs among competing forces.
+    This element describes which forces have been resolved and how, and which remain unresolved. It may also indicate other patterns that may be 	applicable in the new context. (A pattern may be one step in accomplishing some larger goal.) Any such other patterns will be described in detail under 	Related Patterns.
+
+Examples
+    One or more sample applications of the pattern which illustrate each of the other elements: a specific problem, context, and set of forces; how the 	pattern is applied; and the resulting context.
+
+Rationale
+    An explanation/justification of the pattern as a whole, or of individual components within it, indicating how the pattern actually works, and why - 	how it resolves the forces to achieve the desired goals and objectives, and why this is "good". The Solution element of a pattern describes the 	external structure and behavior of the solution: the Rationale provides insight into its internal workings.
+
+Related Patterns
+    The relationships between this pattern and others. These may be predecessor patterns, whose resulting contexts correspond to the initial context of 	this one; or successor patterns, whose initial contexts correspond to the resulting context of this one; or alternative patterns, which describe a 	different solution to the same problem, but under different forces; or co-dependent patterns, which may/must be applied along with this pattern.
+
+Known Uses
+    Known applications of the pattern within existing systems, verifying that the pattern does indeed describe a proven solution to a recurring problem. 	Known Uses can also serve as Examples. 
+
+
+22.1.3 Terminology
+
+In this section we are concerned with patterns for enterprise system architecting. These are analogous to software architecture and design patterns, and borrow many of their concepts and terminology, but focus on providing re-usable models and methods specifically for the architecting of enterprise information systems - comprising software, hardware, networks, and people - as opposed to purely software systems.
+
+22.1.3.1 Architecture Patterns and Design Patterns
+
+The term "design pattern" is often used to refer to any pattern which addresses issues of software architecture, design, or programming implementation. In Pattern-Oriented Software Architecture: A System of Patterns, the authors define these three types of patterns as follows:
+
+    An Architecture Pattern expresses a fundamental structural organization or schema for software systems
+It provides a set of predefined subsystems, specifies their responsibilities, and includes rules and guidelines for organizing the relationships between them.
+
+    A Design Pattern provides a scheme for refining the subsystems or components of a software system, or the relationships between them
+    It describes a commonly recurring structure of communicating components that solves a general design problem within a particular context.
+
+    An Idiom is a low-level pattern specific to a programming language
+    An idiom describes how to implement particular aspects of components or the relationships between them using the features of the given language.
+
+These distinctions are useful, but it is important to note that architecture patterns in this context still refers solely to software architecture. Software architecture is certainly an important part of the focus of the TOGAF standard, but it is not its only focus.
+
+22.1.3.2 Patterns and the Architecture Continuum
+
+Although architecture patterns have not (as yet) been integrated into the TOGAF standard, each of the first four main phases of the ADM (Phases A through D) gives an indication of the stage at which relevant re-usable architecture assets from the Enterprise Architecture Continuum should be considered for use. Architecture patterns are one such asset.
+
+An enterprise that adopts a formal approach to the use and re-use of architecture patterns will normally integrate their use into the Enterprise Architecture Continuum.
+22.1.3.3 Patterns and Views
+
+Architecture views are selected parts of one or more models representing a complete system architecture, focusing on those aspects that address the concerns of one or more stakeholders. Patterns can provide help in designing such models, and in composing views based on them.
+22.1.3.4 Patterns and Business Scenarios
+
+Relevant architecture patterns may well be identified in the work on business scenarios.
+
+
+
+23. Gap Analysis
+Refer webpage
+used to validate an architecture that is being developed. The basic premise is to highlight a shortfall between the Baseline Architecture and the Target Architecture; that is, items that have been deliberately omitted, accidentally left out, or not yet defined.
+
+
+
+24. Migration Planning Techniques
+
+24.1 Implementation Factor Assessment & Deduction Matrix
+The technique of creating an Implementation Factor Assessment and Deduction matrix can be used to document factors impacting the architecture Implementation and Migration Plan.
+
+The matrix should include a list of the factors to be considered, their descriptions, and the deductions that indicate the actions or constraints that have to be taken into consideration when formulating the plans.
+
+Factors typically include:
+
+    Risks
+    Issues
+    Assumptions
+    Dependencies
+    Actions
+    Impacts
+
+
+24.2 Consolidated Gaps, Solutions, & Dependencies Matrix
+
+The technique of creating a Consolidated Gaps, Solutions, and Dependencies matrix allows the architect to group the gaps identified in the domain architecture gap analysis results and assess potential solutions and dependencies to one or more gaps.
+
+This matrix can be used as a planning tool when creating work packages. The identified dependencies will drive the creation of projects and migration planning in Phases E and F.
+
+
+24.3 Architecture Definition Increments Table
+
+The technique of creating an Architecture Definition Increments table allows the architect to plan a series of Transition Architectures outlining the status of the Enterprise Architecture at specified times.
+
+
+24.4 Transition Architecture State Evolution Table
+
+The technique of creating the Transition Architecture State Evolution table allows the architect to show the proposed state of the architectures at various levels using the defined taxonomy (e.g., the TOGAF TRM).
+
+A table should be drawn, listing the services from the taxonomy used in the enterprise, the Transition Architectures, and proposed transformations, as shown in Figure 24-4 .
+
+
+24.5 Business Value Assessment Technique
+
+A technique to assess business value is to draw up a matrix based on a value index dimension and a risk index dimension. An example is shown in Figure 24-5 . The value index should include criteria such as compliance to principles, financial contribution, strategic alignment, and competitive position. The risk index should include criteria such as size and complexity, technology, organizational capacity, and impact of a failure. Each criterion should be assigned an individual weight.
+
+
+
+25. Interoperability Requirements
+
+25.1 Overview
+
+A definition of interoperability is "the ability to share information and services". Defining the degree to which the information and services are to be shared is a very useful architectural requirement, especially in a complex organization and/or extended enterprise.
+
+The determination of interoperability is present throughout the Architecture Development Method (ADM) as follows:
+
+    In the Architecture Vision (Phase A), the nature and security considerations of the information and service exchanges are first revealed within the business scenarios
+    In the Business Architecture (Phase B), the information and service exchanges are further defined in business terms
+    In the Data Architecture (Phase C), the content of the information exchanges is detailed using the corporate data and/or information exchange model
+    In the Application Architecture (Phase C), the way that the various applications are to share the information and services is specified
+    In the Technology Architecture (Phase D), the appropriate technical mechanisms to permit the information and service exchanges are specified
+    In Opportunities & Solutions (Phase E), the actual solutions (e.g., Commercial Off-The-Shelf (COTS) packages) are selected
+    In Migration Planning (Phase F), the interoperability is logically implemented
+
+
+25.2 Defining Interoperability
+
+Many organizations find it useful to categorize interoperability as follows:
+
+    Operational or Business Interoperability defines how business processes are to be shared
+
+    Information Interoperability defines how information is to be shared
+
+    Technical Interoperability defines how technical services are to be shared or at least connect to one another
+
+From an IT perspective, it is also useful to consider interoperability in a similar vein to Enterprise Application Integration (EAI); specifically:
+
+    Presentation Integration/Interoperability is where a common look-and-feel approach through a common portal-like solution guides the user to the underlying functionality of the set of systems
+
+    Information Integration/Interoperability is where the corporate information is seamlessly shared between the various corporate applications to achieve, for example, a common set of client information
+
+    Application Integration/Interoperability is where the corporate functionality is integrated and shareable so that the applications are not duplicated (e.g., one change of address service/component; not one for every application) and are seamlessly linked together through functionality such as workflow
+
+    
+	Technical Integration/Interoperability includes common methods and shared services for the communication, storage, processing, and access to data primarily in the application platform and communications infrastructure domains
+   This interoperability is premised upon the degree of rationalization of the corporate IT infrastructure, based upon standards and/or common IT platforms
+
+
+25.3 Enterprise Operating Model
+
+Key to establishing interoperability is the determination of the corporate operating model, where the operating model is "the necessary level of business process integration and standardization for delivering goods and services to customers. An operating model describes how a company wants to thrive and grow. By providing a more stable and actionable view of the company than strategy, the operating model drives the design of the foundation for execution."1
+
+The corporate operating model will normally indicate what type of interoperability approach will be appropriate. This model should be determined in Phase A (Architecture Vision) if not in Phase B (Business Architecture), and definitely by Phase E (Opportunities & Solutions).
+
+
+25.4 Refining Interoperability
+
+Implementing interoperability requires the creation, management, acceptance, and enforcement of realistic standards that are SMART (Specific, Measurable, Actionable, Realistic, and Time-bound). Clear measures of interoperability are key to success.
+
+Architecture is the key for identifying standards and facilitated sessions (brainstorming) will examine potential pragmatic ways (that fit within the current or emerging business culture) to achieve the requisite degree of interoperability.
+
+Interoperability should be refined so that it meets the needs of the enterprise and/or extended enterprise in an unambiguous way. The refined interoperability measures (degrees, types, and high-level targets) should be part of or referred to the Enterprise Architecture strategic direction.
+
+These measures are instantiated within a transformation strategy that should be embedded within the Target Architecture definition and pragmatically implemented in the Transition Architectures. Upon completion, also update the consolidated gap analysis results and dependencies to ensure that all of the brainstorming nuggets are captured.
+
+
+25.5 Determining Interoperability Requirements
+	It is important to note that the ensuing development process must include recognition of dependencies and boundaries for functions and should take account of what products are available in the marketplace. An example of how this might be expressed can be seen in the building blocks example (see Part III, 33. Building Blocks).
+
+If a mechanism such as the Degrees of Interoperability is used, then a matrix showing the interoperability requirements is a useful tool, as illustrated in Figure 25-1 and Figure 25-2 , noting that the degree of information sharing is not necessarily symmetrical or bidirectional between systems and/or stakeholders.
+
+
+25.6 Reconciling Interoperability Requirements with Potential Solutions
+
+The Enterprise Architect will have to ensure that there are no interoperability conflicts, especially if there is an intention to re-use existing SBBs and/or COTS.
+
+The most significant issue to be addressed is in fact business interoperability. Most SBBs or COTS will have their own business processes embedded. Changing the embedded business processes will often require so much work that the advantages of re-using solutions will be lost. There are numerous examples of this in the past.
+
+Furthermore, there is the workflow aspect between the various systems that has to be taken into account. The Enterprise Architect will have to ensure that any change to the business interoperability requirements is signed off by the Business Architects and architecture sponsors in a revised Statement of Architecture Work.
+
+
+
+
+26. Business Transformation Readiness Assessment
+26.1 Introduction
+
+Understanding the readiness of the organization to accept change, identifying the issues, and then dealing with them in the Implementation and Migration Plans is key to successful architecture transformation in Phases E and F. This will be a joint effort between corporate (especially human resources) staff, lines of business, and IT planners.
+
+The recommended activities in an assessment of an organization's readiness to address business transformation are:
+
+    Determine the readiness factors that will impact the organization
+    Present the readiness factors using maturity models
+    Assess the readiness factors, including determination of readiness factor ratings
+    Assess the risks for each readiness factor and identify improvement actions to mitigate the risk
+    Work these actions into Phase E and F Implementation and Migration Plan
+
+
+26.2 Determine Readiness Factors
+
+The first step is to determine what factors will impact on the business transformation associated with the migration from the Baseline to Target Architectures.
+
+This can be best achieved through the conduct of a facilitated workshop with individuals from different parts of the organization. It is important that all perspectives are sought as the issues will be varied. In this workshop it is very useful to start off with a tentative list of factors that participants can re-use, reject, augment, or replace.
+
+An example set of factors drawn from the Business Transformation Enablement Program (BTEP) follows:
+
+Vision is the ability to clearly define and communicate what is to be achieved 
+	
+Desire, Willingness, and Resolve is the presence of a desire to achieve the results, willingness to accept the impact of doing the work, and the 	resolve to follow through and complete the endeavor
+
+Need, in that there is a compelling need to execute the endeavor 
+
+Business Case exists that creates a strong focus for the project, identifying benefits that must be achieved and thereby creating an imperative to succeed 
+
+Funding, in the form of a clear source of fiscal resources, exists that meets the endeavor's potential expenditures
+
+Sponsorship and Leadership exists and is broadly shared, but not so broad as to diffuse accountability 
+
+Governance is the ability to engage the involvement and support of all parties with an interest in or responsibility to the endeavor with the objective of ensuring that the corporate interests are served and the objectives achieved 
+
+Accountability is the assignment of specific and appropriate responsibility, recognition of measurable expectations by all concerned parties, and alignment of decision-making with areas of responsibility and with where the impact of the decisions will be felt 
+
+Workable Approach and Execution Model is an approach that makes sense relative to the task, with a supporting environment, modeled after a proven approach
+
+IT Capacity to Execute is the ability to perform all the IT tasks required by the project, including the skills, tools, processes, and management capability 
+
+Enterprise Capacity to Execute is the ability of the enterprise to perform all the tasks required by the endeavor, in areas outside of IT, including the ability to make decisions within the tight time constraints typical to project environments based upon the recent successful execution of a similar endeavor of at least half the size and complexity
+
+Enterprise Ability to Implement and Operate the transformation elements and their related business processes, absorb the changes arising from implementation, and ongoing ability to operate in the new environment 
+
+
+
+26.3 Present Readiness Factors
+
+presentation is through the use of maturity models. If each factor is converted into a maturity model (a re-usable governance asset as well) accompanied by a standard worksheet template containing all of the information and deductions that have to be gathered, it can be a very useful tool.
+
+The maturity model should enable participants to:
+
+    Assess their current (Baseline Architecture) maturity level
+    Determine the target maturity level that would have to be achieved to realize the Target Architecture
+    Determine an intermediate target that would be achievable in a lesser timeframe
+
+An example of a maturity model is shown in Figure 26-1 (web) for one of the BTEP factors.
+
+
+26.4 Assess Readiness Factors
+
+Ideally, the factors should be assessed in a multi-disciplinary workshop. Using a mechanism such as maturity models, Enterprise Architects will normally have to cover a great deal of ground in little time.
+
+The use of a series of templates for each factor would expedite the assessment, and ensure consistency across the wide range of factors.
+
+The assessment should address three things, namely:
+
+    Readiness Factor Vision
+    Readiness Factor Rating
+    Readiness Factor Risks & Actions
+
+
+26.5 Readiness and Migration Planning
+
+The assessment exercise will provide a realistic assessment of the organization and will be a key input into the strategic migration planning that will be initiated in Phase E and completed in Phase F. It is important to note whether the business transformation actions will be on the vision's critical path and, if so, determine how they will impact implementation. There is no point deploying new IT capability without employees trained to use it and support staff ready to sustain it.
+
+The readiness factors, as part of an overall Implementation and Migration Plan, will have to be continuously monitored (Phase G) and rapid corrective actions taken through the IT governance framework to ensure that the defined architectures can be implemented.
+
+The readiness factors assessment will be a living document and during the migration planning and execution of the Transition Architectures, the business transformation activities will play a key role.
+
+
+26.6 Marketing the Implementation Plan
+
+The Architecture Definition should not be widely circulated until the business transformation issues are identified and mitigated, and the associated actions part of an overall "marketing" plan for the vision and the Implementation and Migration Plan.
+
+Their determination of the factors will again create a culture of understanding across the enterprise and provide useful insights for the Implementation and Migration Plan.
+
+The latter plan should include a Communications Plan, especially to keep the affected personnel informed. In many cases collaborating with the unions and shop stewards will further assist a humane (and peaceful) transition to the target state.
+
+
+
+
+27. Risk Management
+Is a technique used to mitigate risk when implementing an architecture project.
+
+27.1 Introduction
+There will always be risk with any architecture/business transformation effort. It is also important to note that the Enterprise Architect may identify, classify risks and mitigate certain ones, but it is within the governance framework that risks have to be first accepted and then managed.
+
+There are two levels of risk that should be considered, namely:
+
+    Initial Level of Risk: risk categorization prior to determining and implementing mitigating actions
+    Residual Level of Risk: risk categorization after implementation of mitigating actions (if any)
+
+The process for risk management is described in the following sections and consists of the following activities:
+
+    Risk classification
+    Risk identification
+    Initial risk assessment
+    Risk mitigation and residual risk assessment
+    Risk monitoring
+
+
+27.2 Risk Classification
+Risks are normally classified as time (schedule), cost (budget), and scope but they could also include client transformation relationship risks, contractual risks, technological risks, scope and complexity risks, environmental (corporate) risks, personnel risks, and client acceptance risks.
+
+Another way of delegating risk management is to further classify risks by architecture domains. Classifying risks as business, information, applications, and technology is useful but there may be organizationally-specific ways of expressing risk that the corporate Enterprise Architecture directorate should adopt or extend rather than modify.
+
+Ultimately, Enterprise Architecture risks are corporate risks and should be classified and as appropriate managed in the same or extended way.
+
+
+27.2 Risk Classification
+Risks are normally classified as time (schedule), cost (budget), and scope but they could also include client transformation relationship risks, contractual risks, technological risks, scope and complexity risks, environmental (corporate) risks, personnel risks, and client acceptance risks.
+
+Another way is to further classify risks by architecture domains. Classifying risks as business, information, applications, and technology is useful but there may be organizationally-specific ways of expressing risk that the corporate Enterprise Architecture directorate should adopt or extend rather than modify.
+
+Ultimately, Enterprise Architecture risks are corporate risks and should be classified and as appropriate managed in the same or extended way.
+
+
+27.4 Initial Risk Assessment
+
+The next step is to classify risks with respect to effect and frequency in accordance with scales used within the organization. Combine effect and frequency to come up with a preliminary risk assessment.
+
+Effect could be assessed using the following example criteria:
+
+    Catastrophic infers critical financial loss that could result in bankruptcy of the organization
+    Critical infers serious financial loss in more than one line of business leading to a loss in productivity and no return on investment on the IT 		investment
+    Marginal infers a minor financial loss in a line of business and a reduced return on investment on the IT investment
+    Negligible infers a minimal impact on a line of business' ability to deliver services and/or products
+
+Frequency could be indicated as follows:
+
+    Frequent: likely to occur very often and/or continuously
+    Likely: occurs several times over the course of a transformation cycle
+    Occasional: occurs sporadically
+    Seldom: remotely possible and would probably occur not more than once in the course of a transformation cycle
+    Unlikely: will probably not occur during the course of a transformation cycle
+
+Combining the two factors to infer impact would be conducted using a heuristically-based but consistent classification scheme for the risks. A potential scheme to assess corporate impact could be as follows:
+
+    Extremely High Risk (E): the transformation effort will most likely fail with severe consequences
+    High Risk (H): significant failure of parts of the transformation effort resulting in certain goals not being achieved
+    Moderate Risk (M): noticeable failure of parts of the transformation effort threatening the success of certain goals
+    Low Risk (L): certain goals will not be wholly successful
+
+
+27.5 Risk Mitigation and Residual Risk Assessment
+Risk mitigation refers to the identification, planning, and conduct of actions that will reduce the risk to an acceptable level.
+
+The mitigation effort could be a simple monitoring and/or acceptance of the risk to a full-blown contingency plan calling for complete redundancy in a Business Continuity Plan (with all of the associated scope, cost, and time implications).
+
+
+27.6 Conduct Residual Risk Assessment
+Once the mitigation effort has been identified for each one of the risks, re-assess the effect and frequency and then recalculate the impacts and see whether the mitigation effort has really made an acceptable difference. The mitigation efforts will often be resource-intensive and a major outlay for little or no residual risk should be challenged.
+
+Once the initial risk is mitigated, then the risk that remains is called the "residual risk". The key consideration is that the mitigating effort actually reduces the corporate impact and does not just move the risk to another similarly high quadrant. For example, changing the risk from frequent/catastrophic to frequent/critical still delivers an Extremely high risk. If this occurs, then the mitigation effort has to be re-considered.
+
+
+27.7 Risk Monitoring and Governance (Phase G)
+
+The residual risks have to be approved by the IT governance framework and potentially in corporate governance where business acceptance of the residual risks is required.
+
+Once the residual risks have been accepted, then the execution of the mitigating actions has to be carefully monitored to ensure that the enterprise is dealing with residual rather than initial risk.
+
+The risk identification and mitigation assessment worksheets are maintained as governance artifacts and are kept up-to-date in Phase G (Implementation Governance) where risk monitoring is conducted.
+
+Implementation governance can identify critical risks that are not being mitigated and might require another full or partial ADM cycle.
+
+
+
+
+28. Capability-Based Planning
+
+Its a business planning technique that focuses on business outcomes and helps in co-ordinating projects across corporate functional domains that together enable the enterprise to achieve that capability.
+
+28.1 Overview
+
+Capability-based planning focuses on the planning, engineering, and delivery of strategic business capabilities to the enterprise. It is business-driven and business-led and combines the requisite efforts of all lines of business to achieve the desired capability. Capability-based planning accommodates most of the corporate business models and is especially useful in organizations where a latent capability to respond (e.g., an emergency preparedness unit) is required and the same resources are involved in multiple capabilities. Often the need for these capabilities are discovered and refined using business scenarios (see the TOGAF® Series Guide: Business Scenarios).
+
+28.3 Concept of Capability-Based Planning
+
+
+Delivery of business capabilities will require co-ordination and alignment across business verticals.
+
+Capabilities are business-driven and ideally business-led. 
+
+Capabilities should be specified using the same discipline in the specification of objectives as in business scenarios; specifically, they should follow the SMART guidelines to avoid ambiguity.
+
+
+28.4 Capabilities in an Enterprise Architecture Context
+
+The capabilities are directly derived from the corporate strategic plan by the corporate strategic planners that are the Enterprise Architects and satisfy the enterprise goals, objectives, and strategies. Most organizations will also have an annual business plan that describes how the organization intends to proceed over the next fiscal period in order to meet the enterprise strategic goals.
+
+Figure 28-4 illustrates the crucial relationships between capability-based planning, Enterprise Architecture, and project/portfolio management. On the left-hand side, capability management is aligned with Enterprise Architecture. The key is that all of the architectures will be expressed in terms of business outcomes and value rather than in IT terms (e.g., establishment of a server farm), thereby ensuring IT alignment with the business.
+
+The intent is that the corporate strategic direction drives the Architecture Vision in Phase A, as well as the corporate organization which will be the basis for the creation of portfolios.
+
+Specific capabilities targeted for completion will be the focus of the Architecture Definition (Phases B, C, and D) and, based upon the identified work packages, Phase E projects will be conceived.
+
+The capability increments will be the drivers for the Transition Architectures (Phase E) that will structure the project increments. The actual delivery will be co-ordinated through the Implementation and Migration Plans (Phase F).
+
+Figure 28-4 
+
+Capability managers will perform similar tasks to that of the portfolio managers, but across the portfolios aligning the projects and project increments to deliver continuous business value. Whereas the portfolio managers will be concerned with the co-ordination of their projects to optimally design, build, and deliver the Solution Building Blocks (SBBs). Ideally, capability managers will also manage funding that can use the Transition Architectures as gates. Co-ordination between the portfolio and capability managers will have to be provided at the corporate level.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+The passwords are as shown including dashes
+
+b220a:          1001-21-01-2022-ZZU-pp-1
+
+b220b:          1001-21-01-2022-CXV-pp-1
+
+
+This practice test can also be taken online in The Open Group LMS.
+To do so, go to
+	https://theopengroup.moodlecloud.com
+register for an account. You can then scroll down the available
+courses and self enrol for the 
+TOGAF® Enterprise Architecture Part 1 Practice Test
+
+The enrolment key is:
+	1001-21-01-2022-LMS-pp-1
+
